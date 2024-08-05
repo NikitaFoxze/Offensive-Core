@@ -1,0 +1,12 @@
+{
+	"user": "NikitaFoxze",
+	"repo": "Offensive-Core",
+	"include_path": "sources",
+	"build":
+	{
+		"compiler":
+		{
+			"version": "3.10.10"
+		}
+	}
+}
