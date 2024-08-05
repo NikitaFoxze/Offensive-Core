@@ -1,4 +1,4 @@
-# Offensive-Core
+![](media/offensive-core.png)
 [![Link to Mastodon profile](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)](https://github.com/NikitaFoxze/Offensive-Core)
 [![Link to Mastodon profile](https://img.shields.io/badge/Language-Pawn-red?style=for-the-badge)](https://github.com/NikitaFoxze/Offensive-Core)
 [![Link to Mastodon profile](https://img.shields.io/badge/Saves-MySQL-purple?style=for-the-badge)](https://github.com/NikitaFoxze/Offensive-Core)
