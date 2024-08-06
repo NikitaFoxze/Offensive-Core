@@ -1376,9 +1376,6 @@ static ShowResultRound(session_id)
 
 static HideResultMatch(session_id)
 {
-	ResetTopPlayers(session_id);
-	ResetTopBots(session_id);
-
 	n_for(npcid, 5) {
 		FCNPC_SetPosition(npc_top_kills[session_id][npcid], 0.0, 0.0, 0.0);
 		FCNPC_SetSkin(npc_top_kills[session_id][npcid], 0);
@@ -1398,6 +1395,9 @@ static HideResultMatch(session_id)
 		if(IsValidDynamic3DTextLabel(npc_3DText[session_id][npcid]))
 			DestroyDynamic3DTextLabel(npc_3DText[session_id][npcid]);
 	}
+
+	ResetTopPlayers(session_id);
+	ResetTopBots(session_id);
 	return 1;
 }
 
