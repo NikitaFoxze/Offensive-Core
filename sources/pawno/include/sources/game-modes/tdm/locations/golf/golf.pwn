@@ -54,11 +54,11 @@ stock TDM_Golf_CreateElements(session_id)
 	TDM_SetTimer(session_id, 20, 0);
 
 	// Лучшие игроки
-	TDM_SetSpawnTopBot(session_id, 0, 196.32857, 2475.43604, 16.45367, 6.8112);
-	TDM_SetSpawnTopBot(session_id, 1, 195.54019, 2474.86890, 16.45367, 6.8112);
-	TDM_SetSpawnTopBot(session_id, 2, 197.45180, 2474.30249, 16.45367, 6.8112);
-	TDM_SetSpawnTopBot(session_id, 3, 194.31660, 2473.62231, 16.45367, 6.8112);
-	TDM_SetSpawnTopBot(session_id, 4, 198.91211, 2472.33813, 16.45367, 6.8112);
+	TDM_SetSpawnTopBot(session_id, 0, 1358.4762, 2833.9839, 10.8203, 180.4818);
+	TDM_SetSpawnTopBot(session_id, 1, 1355.5365, 2836.2363, 10.8203, 180.1684);
+	TDM_SetSpawnTopBot(session_id, 2, 1360.9481, 2835.6326, 10.8203, 180.1684);
+	TDM_SetSpawnTopBot(session_id, 3, 1353.5803, 2837.9731, 10.8203, 180.1684);
+	TDM_SetSpawnTopBot(session_id, 4, 1362.9001, 2837.9211, 10.8203, 180.1684);
 
 	// Камера в конце матча
 	TDM_SetCameraEndPos(session_id, 
@@ -68,8 +68,8 @@ stock TDM_Golf_CreateElements(session_id)
 		1187.799804, 2837.024902, 23.288904, 
 		1192.176513, 2834.703369, 22.614404);
 	TDM_SetCameraEndPosTwo(session_id, 
-		195.996307, 2480.556152, 16.584621, 
-		196.222152, 2475.561523, 16.542434);
+		1360.658691, 2848.389404, 12.033515, 
+		1360.154785, 2843.415283, 11.974923);
 
 	// Зона локации
 	TDM_SetExitZonePos(session_id, 1116.0, 2719.0, 1459.0, 2864.0);
