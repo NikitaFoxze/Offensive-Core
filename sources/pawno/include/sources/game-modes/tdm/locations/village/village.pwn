@@ -54,11 +54,11 @@ stock TDM_Village_CreateElements(session_id)
 	TDM_SetTimer(session_id, 20, 0);
 
 	// Лучшие игроки
-	TDM_SetSpawnTopBot(session_id, 0, 196.32857, 2475.43604, 16.45367, 6.8112);
-	TDM_SetSpawnTopBot(session_id, 1, 195.54019, 2474.86890, 16.45367, 6.8112);
-	TDM_SetSpawnTopBot(session_id, 2, 197.45180, 2474.30249, 16.45367, 6.8112);
-	TDM_SetSpawnTopBot(session_id, 3, 194.31660, 2473.62231, 16.45367, 6.8112);
-	TDM_SetSpawnTopBot(session_id, 4, 198.91211, 2472.33813, 16.45367, 6.8112);
+	TDM_SetSpawnTopBot(session_id, 0, -2402.1113, 2332.4780, 4.9844, 12.5336);
+	TDM_SetSpawnTopBot(session_id, 1, -2399.1506, 2331.9771, 4.9844, 13.4735);
+	TDM_SetSpawnTopBot(session_id, 2, -2403.5195, 2329.9368, 4.9844, 11.5935);
+	TDM_SetSpawnTopBot(session_id, 3, -2395.7351, 2329.8364, 4.9844, 13.7869);
+	TDM_SetSpawnTopBot(session_id, 4, -2403.7979, 2328.9851, 4.9844, 16.6069);
 
 	// Камера в конце матча
 	TDM_SetCameraEndPos(session_id, 
@@ -68,8 +68,8 @@ stock TDM_Village_CreateElements(session_id)
 		-2348.792236, 2431.948486, 47.297271, 
 		-2351.073486, 2428.480712, 44.509628);
 	TDM_SetCameraEndPosTwo(session_id, 
-		195.996307, 2480.556152, 16.584621, 
-		196.222152, 2475.561523, 16.542434);
+		-2402.455078, 2347.967041, 5.865367, 
+		-2401.626464, 2343.038818, 6.025496);
 
 	// Зона локации
 	TDM_SetExitZonePos(session_id, -2654.0, 2185.0, -2166.0, 2557.0);
