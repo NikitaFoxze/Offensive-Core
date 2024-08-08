@@ -695,7 +695,7 @@ InterfacePlayerClick:SecondPassword(playerid, PlayerText:playertextid)
 {
 	if(!GetPlayerLogged(playerid)) {
 		new
-			string[7];
+			string[20];
 
 		GetPVarString(playerid, "StringSecPass_PVar", string, sizeof(string));
 		if(playertextid == TD_SecPass[playerid][36]) {
@@ -708,7 +708,7 @@ InterfacePlayerClick:SecondPassword(playerid, PlayerText:playertextid)
 			}
 
 			pInfo[playerid][pSecondPassword][0] = EOS;
-			mysql_escape_string(string, pInfo[playerid][pSecondPassword], 0);
+			mysql_escape_string(string, pInfo[playerid][pSecondPassword]);
 
 			new
 				query[150];
@@ -748,7 +748,7 @@ InterfacePlayerClick:SecondPassword(playerid, PlayerText:playertextid)
 	}
 	else {
 		new
-			string[7];
+			string[20];
 
 		GetPVarString(playerid, "StringSecPass_PVar", string, sizeof(string));
 		if(playertextid == TD_SecPass[playerid][36]) {
@@ -830,7 +830,7 @@ DialogResponse:PlayerSecondPassword(playerid, response, listitem, inputtext[])
 					Dialog_Show(playerid, Dialog:PlayerChangeSecurity);
 					return 1;
 				}
-				Interface_Closing(playerid, Interface:MainMenu, true);
+				Interface_Close(playerid, Interface:MainMenu);
 				Interface_Show(playerid, Interface:SecondPassword);
 			}
 			case 1: {
@@ -848,7 +848,7 @@ DialogResponse:PlayerSecondPassword(playerid, response, listitem, inputtext[])
 				}
 
 				pInfo[playerid][pSecondPassword][0] = EOS;
-				mysql_escape_string(pInfo[playerid][pSecondPassword], "No Second Password", 0);
+				mysql_escape_string("No Second Password", pInfo[playerid][pSecondPassword]);
 
 				new
 					query[150];
