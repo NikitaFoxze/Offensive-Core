@@ -95,7 +95,7 @@ Offensive-Core - это большой проект сочетающий в се
 - [Pawn.RakNet v1.6.0](https://github.com/katursis/Pawn.RakNet)
 - [Pawn.Regex v1.2.3](https://github.com/katursis/Pawn.Regex)
 - [rustext v2.0.8](https://github.com/ziggi/rustext)
-- [FCNPC v2.0.10](https://github.com/ziggi/FCNPC)
+- [FCNPC v2.0.10](https://github.com/ziggi/FCNPC) (для open.mp не нужен)
 - [CrashDetect v4.22](https://github.com/Zeex/samp-plugin-crashdetect)
 
 Файлы:
