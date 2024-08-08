@@ -1,0 +1,16 @@
+// √лобальные текстдравы
+new Text:TDEditor_TD[1];
+
+TDEditor_TD[0] = TextDrawCreate(547.0000, 32.0000, "Rank:_100000"); // пусто
+TextDrawLetterSize(TDEditor_TD[0], 0.2676, 1.0920);
+TextDrawAlignment(TDEditor_TD[0], 1);
+TextDrawColor(TDEditor_TD[0], -1);
+TextDrawSetOutline(TDEditor_TD[0], 1);
+TextDrawBackgroundColor(TDEditor_TD[0], -2070051585);
+TextDrawFont(TDEditor_TD[0], 2);
+TextDrawSetProportional(TDEditor_TD[0], 1);
+TextDrawSetShadow(TDEditor_TD[0], 0);
+
+
+
+// Ёкспортировано 1 текстдравов.

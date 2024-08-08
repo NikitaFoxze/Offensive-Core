@@ -1,0 +1,319 @@
+// Глобальные текстдравы
+new Text:TDEditor_TD[31];
+
+TDEditor_TD[0] = TextDrawCreate(230.9656, 381.2120, "LD_Beat:Chit"); // пусто
+TextDrawTextSize(TDEditor_TD[0], 27.0000, 33.0000);
+TextDrawAlignment(TDEditor_TD[0], 1);
+TextDrawColor(TDEditor_TD[0], 10551295);
+TextDrawBackgroundColor(TDEditor_TD[0], 255);
+TextDrawFont(TDEditor_TD[0], 4);
+TextDrawSetProportional(TDEditor_TD[0], 0);
+TextDrawSetShadow(TDEditor_TD[0], 0);
+
+TDEditor_TD[1] = TextDrawCreate(381.7337, 381.4119, "LD_Beat:Chit"); // пусто
+TextDrawTextSize(TDEditor_TD[1], 27.0000, 33.0000);
+TextDrawAlignment(TDEditor_TD[1], 1);
+TextDrawColor(TDEditor_TD[1], 235802367);
+TextDrawBackgroundColor(TDEditor_TD[1], 255);
+TextDrawFont(TDEditor_TD[1], 4);
+TextDrawSetProportional(TDEditor_TD[1], 0);
+TextDrawSetShadow(TDEditor_TD[1], 0);
+
+TDEditor_TD[2] = TextDrawCreate(396.2000, 392.0148, ">"); // пусто
+TextDrawLetterSize(TDEditor_TD[2], 0.1313, 1.2597);
+TextDrawTextSize(TDEditor_TD[2], 20.0000, 20.0000);
+TextDrawAlignment(TDEditor_TD[2], 2);
+TextDrawColor(TDEditor_TD[2], -1);
+TextDrawUseBox(TDEditor_TD[2], 1);
+TextDrawBoxColor(TDEditor_TD[2], 0);
+TextDrawBackgroundColor(TDEditor_TD[2], 255);
+TextDrawFont(TDEditor_TD[2], 2);
+TextDrawSetProportional(TDEditor_TD[2], 1);
+TextDrawSetShadow(TDEditor_TD[2], 0);
+TextDrawSetSelectable(TDEditor_TD[2], true);
+
+TDEditor_TD[3] = TextDrawCreate(244.5332, 391.6000, "<"); // пусто
+TextDrawLetterSize(TDEditor_TD[3], 0.1313, 1.2597);
+TextDrawTextSize(TDEditor_TD[3], 20.0000, 20.0000);
+TextDrawAlignment(TDEditor_TD[3], 2);
+TextDrawColor(TDEditor_TD[3], -1);
+TextDrawUseBox(TDEditor_TD[3], 1);
+TextDrawBoxColor(TDEditor_TD[3], 0);
+TextDrawBackgroundColor(TDEditor_TD[3], 255);
+TextDrawFont(TDEditor_TD[3], 2);
+TextDrawSetProportional(TDEditor_TD[3], 1);
+TextDrawSetShadow(TDEditor_TD[3], 0);
+TextDrawSetSelectable(TDEditor_TD[3], true);
+
+TDEditor_TD[4] = TextDrawCreate(322.0002, 390.2000, "LD_SPAC:white"); // пусто
+TextDrawTextSize(TDEditor_TD[4], 60.0000, 16.0000);
+TextDrawAlignment(TDEditor_TD[4], 1);
+TextDrawColor(TDEditor_TD[4], 235802367);
+TextDrawBackgroundColor(TDEditor_TD[4], 255);
+TextDrawFont(TDEditor_TD[4], 4);
+TextDrawSetProportional(TDEditor_TD[4], 0);
+TextDrawSetShadow(TDEditor_TD[4], 0);
+
+TDEditor_TD[5] = TextDrawCreate(320.7334, 401.4231, "LD_Beat:Chit"); // пусто
+TextDrawTextSize(TDEditor_TD[5], 8.0000, 9.0000);
+TextDrawAlignment(TDEditor_TD[5], 1);
+TextDrawColor(TDEditor_TD[5], 235802367);
+TextDrawBackgroundColor(TDEditor_TD[5], 255);
+TextDrawFont(TDEditor_TD[5], 4);
+TextDrawSetProportional(TDEditor_TD[5], 0);
+TextDrawSetShadow(TDEditor_TD[5], 0);
+
+TDEditor_TD[6] = TextDrawCreate(375.0992, 401.4231, "LD_Beat:Chit"); // пусто
+TextDrawTextSize(TDEditor_TD[6], 8.0000, 9.0000);
+TextDrawAlignment(TDEditor_TD[6], 1);
+TextDrawColor(TDEditor_TD[6], 235802367);
+TextDrawBackgroundColor(TDEditor_TD[6], 255);
+TextDrawFont(TDEditor_TD[6], 4);
+TextDrawSetProportional(TDEditor_TD[6], 0);
+TextDrawSetShadow(TDEditor_TD[6], 0);
+
+TDEditor_TD[7] = TextDrawCreate(320.6335, 385.2221, "LD_Beat:Chit"); // пусто
+TextDrawTextSize(TDEditor_TD[7], 8.0000, 9.0000);
+TextDrawAlignment(TDEditor_TD[7], 1);
+TextDrawColor(TDEditor_TD[7], 235802367);
+TextDrawBackgroundColor(TDEditor_TD[7], 255);
+TextDrawFont(TDEditor_TD[7], 4);
+TextDrawSetProportional(TDEditor_TD[7], 0);
+TextDrawSetShadow(TDEditor_TD[7], 0);
+
+TDEditor_TD[8] = TextDrawCreate(375.0992, 385.2221, "LD_Beat:Chit"); // пусто
+TextDrawTextSize(TDEditor_TD[8], 8.0000, 9.0000);
+TextDrawAlignment(TDEditor_TD[8], 1);
+TextDrawColor(TDEditor_TD[8], 235802367);
+TextDrawBackgroundColor(TDEditor_TD[8], 255);
+TextDrawFont(TDEditor_TD[8], 4);
+TextDrawSetProportional(TDEditor_TD[8], 0);
+TextDrawSetShadow(TDEditor_TD[8], 0);
+
+TDEditor_TD[9] = TextDrawCreate(325.6668, 386.8815, "LD_SPAC:white"); // пусто
+TextDrawTextSize(TDEditor_TD[9], 53.0000, 22.0000);
+TextDrawAlignment(TDEditor_TD[9], 1);
+TextDrawColor(TDEditor_TD[9], 235802367);
+TextDrawBackgroundColor(TDEditor_TD[9], 255);
+TextDrawFont(TDEditor_TD[9], 4);
+TextDrawSetProportional(TDEditor_TD[9], 0);
+TextDrawSetShadow(TDEditor_TD[9], 0);
+
+TDEditor_TD[10] = TextDrawCreate(352.9667, 392.4295, "CANCEL"); // пусто
+TextDrawLetterSize(TDEditor_TD[10], 0.1705, 1.1270);
+TextDrawTextSize(TDEditor_TD[10], 25.0000, 58.0000);
+TextDrawAlignment(TDEditor_TD[10], 2);
+TextDrawColor(TDEditor_TD[10], -1);
+TextDrawUseBox(TDEditor_TD[10], 1);
+TextDrawBoxColor(TDEditor_TD[10], 0);
+TextDrawBackgroundColor(TDEditor_TD[10], 255);
+TextDrawFont(TDEditor_TD[10], 2);
+TextDrawSetProportional(TDEditor_TD[10], 1);
+TextDrawSetShadow(TDEditor_TD[10], 0);
+TextDrawSetSelectable(TDEditor_TD[10], true);
+
+TDEditor_TD[11] = TextDrawCreate(316.0989, 380.6824, "LD_Beat:Chit"); // пусто
+TextDrawTextSize(TDEditor_TD[11], 4.0100, 4.8798);
+TextDrawAlignment(TDEditor_TD[11], 1);
+TextDrawColor(TDEditor_TD[11], 10551295);
+TextDrawBackgroundColor(TDEditor_TD[11], 255);
+TextDrawFont(TDEditor_TD[11], 4);
+TextDrawSetProportional(TDEditor_TD[11], 0);
+TextDrawSetShadow(TDEditor_TD[11], 0);
+
+TDEditor_TD[12] = TextDrawCreate(230.7655, 403.9121, "LD_Beat:Chit"); // пусто
+TextDrawTextSize(TDEditor_TD[12], 4.0100, 4.8798);
+TextDrawAlignment(TDEditor_TD[12], 1);
+TextDrawColor(TDEditor_TD[12], 10551295);
+TextDrawBackgroundColor(TDEditor_TD[12], 255);
+TextDrawFont(TDEditor_TD[12], 4);
+TextDrawSetProportional(TDEditor_TD[12], 0);
+TextDrawSetShadow(TDEditor_TD[12], 0);
+
+TDEditor_TD[13] = TextDrawCreate(242.7655, 379.8528, "LD_Beat:Chit"); // пусто
+TextDrawTextSize(TDEditor_TD[13], 4.0100, 4.8798);
+TextDrawAlignment(TDEditor_TD[13], 1);
+TextDrawColor(TDEditor_TD[13], 10551295);
+TextDrawBackgroundColor(TDEditor_TD[13], 255);
+TextDrawFont(TDEditor_TD[13], 4);
+TextDrawSetProportional(TDEditor_TD[13], 0);
+TextDrawSetShadow(TDEditor_TD[13], 0);
+
+TDEditor_TD[14] = TextDrawCreate(278.3335, 417.9924, "LD_SPAC:white"); // пусто
+TextDrawTextSize(TDEditor_TD[14], 84.0000, 16.0000);
+TextDrawAlignment(TDEditor_TD[14], 1);
+TextDrawColor(TDEditor_TD[14], 437918463);
+TextDrawBackgroundColor(TDEditor_TD[14], 255);
+TextDrawFont(TDEditor_TD[14], 4);
+TextDrawSetProportional(TDEditor_TD[14], 0);
+TextDrawSetShadow(TDEditor_TD[14], 0);
+
+TDEditor_TD[15] = TextDrawCreate(276.9336, 429.2157, "LD_Beat:Chit"); // пусто
+TextDrawTextSize(TDEditor_TD[15], 8.0000, 9.0000);
+TextDrawAlignment(TDEditor_TD[15], 1);
+TextDrawColor(TDEditor_TD[15], 437918463);
+TextDrawBackgroundColor(TDEditor_TD[15], 255);
+TextDrawFont(TDEditor_TD[15], 4);
+TextDrawSetProportional(TDEditor_TD[15], 0);
+TextDrawSetShadow(TDEditor_TD[15], 0);
+
+TDEditor_TD[16] = TextDrawCreate(355.4328, 429.2157, "LD_Beat:Chit"); // пусто
+TextDrawTextSize(TDEditor_TD[16], 8.0000, 9.0000);
+TextDrawAlignment(TDEditor_TD[16], 1);
+TextDrawColor(TDEditor_TD[16], 437918463);
+TextDrawBackgroundColor(TDEditor_TD[16], 255);
+TextDrawFont(TDEditor_TD[16], 4);
+TextDrawSetProportional(TDEditor_TD[16], 0);
+TextDrawSetShadow(TDEditor_TD[16], 0);
+
+TDEditor_TD[17] = TextDrawCreate(276.8337, 413.0148, "LD_Beat:Chit"); // пусто
+TextDrawTextSize(TDEditor_TD[17], 8.0000, 9.0000);
+TextDrawAlignment(TDEditor_TD[17], 1);
+TextDrawColor(TDEditor_TD[17], 437918463);
+TextDrawBackgroundColor(TDEditor_TD[17], 255);
+TextDrawFont(TDEditor_TD[17], 4);
+TextDrawSetProportional(TDEditor_TD[17], 0);
+TextDrawSetShadow(TDEditor_TD[17], 0);
+
+TDEditor_TD[18] = TextDrawCreate(355.4328, 413.0148, "LD_Beat:Chit"); // пусто
+TextDrawTextSize(TDEditor_TD[18], 8.0000, 9.0000);
+TextDrawAlignment(TDEditor_TD[18], 1);
+TextDrawColor(TDEditor_TD[18], 437918463);
+TextDrawBackgroundColor(TDEditor_TD[18], 255);
+TextDrawFont(TDEditor_TD[18], 4);
+TextDrawSetProportional(TDEditor_TD[18], 0);
+TextDrawSetShadow(TDEditor_TD[18], 0);
+
+TDEditor_TD[19] = TextDrawCreate(282.0003, 414.6741, "LD_SPAC:white"); // пусто
+TextDrawTextSize(TDEditor_TD[19], 77.0000, 22.0000);
+TextDrawAlignment(TDEditor_TD[19], 1);
+TextDrawColor(TDEditor_TD[19], 437918463);
+TextDrawBackgroundColor(TDEditor_TD[19], 255);
+TextDrawFont(TDEditor_TD[19], 4);
+TextDrawSetProportional(TDEditor_TD[19], 0);
+TextDrawSetShadow(TDEditor_TD[19], 0);
+
+TDEditor_TD[20] = TextDrawCreate(319.9670, 419.8074, "SELECT_ITEM"); // пусто
+TextDrawLetterSize(TDEditor_TD[20], 0.1705, 1.1270);
+TextDrawTextSize(TDEditor_TD[20], 25.0000, 80.0000);
+TextDrawAlignment(TDEditor_TD[20], 2);
+TextDrawColor(TDEditor_TD[20], -1);
+TextDrawUseBox(TDEditor_TD[20], 1);
+TextDrawBoxColor(TDEditor_TD[20], 0);
+TextDrawBackgroundColor(TDEditor_TD[20], 255);
+TextDrawFont(TDEditor_TD[20], 2);
+TextDrawSetProportional(TDEditor_TD[20], 1);
+TextDrawSetShadow(TDEditor_TD[20], 0);
+TextDrawSetSelectable(TDEditor_TD[20], true);
+
+TDEditor_TD[21] = TextDrawCreate(258.3333, 390.2000, "LD_SPAC:white"); // пусто
+TextDrawTextSize(TDEditor_TD[21], 60.0000, 16.0000);
+TextDrawAlignment(TDEditor_TD[21], 1);
+TextDrawColor(TDEditor_TD[21], 10551295);
+TextDrawBackgroundColor(TDEditor_TD[21], 255);
+TextDrawFont(TDEditor_TD[21], 4);
+TextDrawSetProportional(TDEditor_TD[21], 0);
+TextDrawSetShadow(TDEditor_TD[21], 0);
+
+TDEditor_TD[22] = TextDrawCreate(257.0667, 401.4231, "LD_Beat:Chit"); // пусто
+TextDrawTextSize(TDEditor_TD[22], 8.0000, 9.0000);
+TextDrawAlignment(TDEditor_TD[22], 1);
+TextDrawColor(TDEditor_TD[22], 10551295);
+TextDrawBackgroundColor(TDEditor_TD[22], 255);
+TextDrawFont(TDEditor_TD[22], 4);
+TextDrawSetProportional(TDEditor_TD[22], 0);
+TextDrawSetShadow(TDEditor_TD[22], 0);
+
+TDEditor_TD[23] = TextDrawCreate(311.4324, 401.4231, "LD_Beat:Chit"); // пусто
+TextDrawTextSize(TDEditor_TD[23], 8.0000, 9.0000);
+TextDrawAlignment(TDEditor_TD[23], 1);
+TextDrawColor(TDEditor_TD[23], 10551295);
+TextDrawBackgroundColor(TDEditor_TD[23], 255);
+TextDrawFont(TDEditor_TD[23], 4);
+TextDrawSetProportional(TDEditor_TD[23], 0);
+TextDrawSetShadow(TDEditor_TD[23], 0);
+
+TDEditor_TD[24] = TextDrawCreate(256.9667, 385.2221, "LD_Beat:Chit"); // пусто
+TextDrawTextSize(TDEditor_TD[24], 8.0000, 9.0000);
+TextDrawAlignment(TDEditor_TD[24], 1);
+TextDrawColor(TDEditor_TD[24], 10551295);
+TextDrawBackgroundColor(TDEditor_TD[24], 255);
+TextDrawFont(TDEditor_TD[24], 4);
+TextDrawSetProportional(TDEditor_TD[24], 0);
+TextDrawSetShadow(TDEditor_TD[24], 0);
+
+TDEditor_TD[25] = TextDrawCreate(311.4324, 385.2221, "LD_Beat:Chit"); // пусто
+TextDrawTextSize(TDEditor_TD[25], 8.0000, 9.0000);
+TextDrawAlignment(TDEditor_TD[25], 1);
+TextDrawColor(TDEditor_TD[25], 10551295);
+TextDrawBackgroundColor(TDEditor_TD[25], 255);
+TextDrawFont(TDEditor_TD[25], 4);
+TextDrawSetProportional(TDEditor_TD[25], 0);
+TextDrawSetShadow(TDEditor_TD[25], 0);
+
+TDEditor_TD[26] = TextDrawCreate(262.0000, 386.8815, "LD_SPAC:white"); // пусто
+TextDrawTextSize(TDEditor_TD[26], 53.0000, 22.0000);
+TextDrawAlignment(TDEditor_TD[26], 1);
+TextDrawColor(TDEditor_TD[26], 10551295);
+TextDrawBackgroundColor(TDEditor_TD[26], 255);
+TextDrawFont(TDEditor_TD[26], 4);
+TextDrawSetProportional(TDEditor_TD[26], 0);
+TextDrawSetShadow(TDEditor_TD[26], 0);
+
+TDEditor_TD[27] = TextDrawCreate(288.9667, 392.4295, "accept"); // пусто
+TextDrawLetterSize(TDEditor_TD[27], 0.1705, 1.1270);
+TextDrawTextSize(TDEditor_TD[27], 25.0000, 58.0000);
+TextDrawAlignment(TDEditor_TD[27], 2);
+TextDrawColor(TDEditor_TD[27], -1);
+TextDrawUseBox(TDEditor_TD[27], 1);
+TextDrawBoxColor(TDEditor_TD[27], 0);
+TextDrawBackgroundColor(TDEditor_TD[27], 255);
+TextDrawFont(TDEditor_TD[27], 2);
+TextDrawSetProportional(TDEditor_TD[27], 1);
+TextDrawSetShadow(TDEditor_TD[27], 0);
+TextDrawSetSelectable(TDEditor_TD[27], true);
+
+TDEditor_TD[28] = TextDrawCreate(268.4323, 410.1343, "LD_Beat:Chit"); // пусто
+TextDrawTextSize(TDEditor_TD[28], 3.0000, 4.0000);
+TextDrawAlignment(TDEditor_TD[28], 1);
+TextDrawColor(TDEditor_TD[28], 10551295);
+TextDrawBackgroundColor(TDEditor_TD[28], 255);
+TextDrawFont(TDEditor_TD[28], 4);
+TextDrawSetProportional(TDEditor_TD[28], 0);
+TextDrawSetShadow(TDEditor_TD[28], 0);
+
+TDEditor_TD[29] = TextDrawCreate(257.0000, 364.4812, "particle:lamp_shad_64"); // пусто
+TextDrawTextSize(TDEditor_TD[29], 130.0000, 14.0000);
+TextDrawAlignment(TDEditor_TD[29], 1);
+TextDrawColor(TDEditor_TD[29], 10551184);
+TextDrawBackgroundColor(TDEditor_TD[29], 255);
+TextDrawFont(TDEditor_TD[29], 4);
+TextDrawSetProportional(TDEditor_TD[29], 0);
+TextDrawSetShadow(TDEditor_TD[29], 0);
+
+TDEditor_TD[30] = TextDrawCreate(257.0000, 379.8822, "particle:lamp_shad_64"); // пусто
+TextDrawTextSize(TDEditor_TD[30], 130.0000, -17.0000);
+TextDrawAlignment(TDEditor_TD[30], 1);
+TextDrawColor(TDEditor_TD[30], 10551184);
+TextDrawBackgroundColor(TDEditor_TD[30], 255);
+TextDrawFont(TDEditor_TD[30], 4);
+TextDrawSetProportional(TDEditor_TD[30], 0);
+TextDrawSetShadow(TDEditor_TD[30], 0);
+
+
+
+// Текстдравы для игроков
+new PlayerText:TDEditor_PTD[MAX_PLAYERS][1];
+
+TDEditor_PTD[playerid][0] = CreatePlayerTextDraw(playerid, 320.9999, 365.4666, "COST:_$100.000"); // пусто
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][0], 0.1608, 1.0441);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][0], 2);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][0], -1);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][0], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][0], 2);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][0], 1);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][0], 0);
+
+
+
+// Экспортировано 32 текстдравов.

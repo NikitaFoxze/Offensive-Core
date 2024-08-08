@@ -1,0 +1,51 @@
+// Глобальные текстдравы
+new Text:TDEditor_TD[1];
+
+TDEditor_TD[0] = TextDrawCreate(486.0000, 113.0000, "Rank"); // пусто
+TextDrawLetterSize(TDEditor_TD[0], 0.2766, 1.3801);
+TextDrawAlignment(TDEditor_TD[0], 1);
+TextDrawColor(TDEditor_TD[0], -1);
+TextDrawSetOutline(TDEditor_TD[0], 1);
+TextDrawBackgroundColor(TDEditor_TD[0], 16);
+TextDrawFont(TDEditor_TD[0], 2);
+TextDrawSetProportional(TDEditor_TD[0], 1);
+TextDrawSetShadow(TDEditor_TD[0], 0);
+
+
+
+// Текстдравы для игроков
+new PlayerText:TDEditor_PTD[MAX_PLAYERS][3];
+
+TDEditor_PTD[playerid][0] = CreatePlayerTextDraw(playerid, 540.0000, 100.0000, "FPS:_100"); // пусто
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][0], 0.2506, 1.3634);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][0], 3);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][0], -960051969);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][0], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][0], 2);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][0], 1);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][0], 0);
+
+TDEditor_PTD[playerid][1] = CreatePlayerTextDraw(playerid, 560.0000, 100.0000, "Ping:_100"); // пусто
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][1], 0.2506, 1.3634);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][1], 1);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][1], -960051969);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][1], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][1], 2);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][1], 1);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][1], 0);
+
+TDEditor_PTD[playerid][2] = CreatePlayerTextDraw(playerid, 487.0000, 103.0000, "Box"); // пусто
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][2], 0.0000, 0.8999);
+PlayerTextDrawTextSize(playerid, TDEditor_PTD[playerid][2], 620.0000, 0.0000);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][2], 1);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][2], -1);
+PlayerTextDrawUseBox(playerid, TDEditor_PTD[playerid][2], 1);
+PlayerTextDrawBoxColor(playerid, TDEditor_PTD[playerid][2], 153);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][2], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][2], 1);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][2], 1);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][2], 0);
+
+
+
+// Экспортировано 4 текстдравов.

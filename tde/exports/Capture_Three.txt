@@ -1,0 +1,265 @@
+// Глобальные текстдравы
+new Text:TDEditor_TD[17];
+
+TDEditor_TD[0] = TextDrawCreate(42.3331, 306.9367, "LD_BEAT:chit"); // пусто
+TextDrawTextSize(TDEditor_TD[0], 14.0000, 16.0000);
+TextDrawAlignment(TDEditor_TD[0], 1);
+TextDrawColor(TDEditor_TD[0], 538976511);
+TextDrawBackgroundColor(TDEditor_TD[0], 255);
+TextDrawFont(TDEditor_TD[0], 4);
+TextDrawSetProportional(TDEditor_TD[0], 0);
+TextDrawSetShadow(TDEditor_TD[0], 0);
+
+TDEditor_TD[1] = TextDrawCreate(89.5356, 306.9367, "LD_BEAT:chit"); // пусто
+TextDrawTextSize(TDEditor_TD[1], 14.0000, 16.0000);
+TextDrawAlignment(TDEditor_TD[1], 1);
+TextDrawColor(TDEditor_TD[1], 538976511);
+TextDrawBackgroundColor(TDEditor_TD[1], 255);
+TextDrawFont(TDEditor_TD[1], 4);
+TextDrawSetProportional(TDEditor_TD[1], 0);
+TextDrawSetShadow(TDEditor_TD[1], 0);
+
+TDEditor_TD[2] = TextDrawCreate(48.3333, 230.1961, "LD_SPAC:white"); // пусто
+TextDrawTextSize(TDEditor_TD[2], 48.0000, 90.0000);
+TextDrawAlignment(TDEditor_TD[2], 1);
+TextDrawColor(TDEditor_TD[2], 538976511);
+TextDrawBackgroundColor(TDEditor_TD[2], 255);
+TextDrawFont(TDEditor_TD[2], 4);
+TextDrawSetProportional(TDEditor_TD[2], 0);
+TextDrawSetShadow(TDEditor_TD[2], 0);
+
+TDEditor_TD[3] = TextDrawCreate(44.6666, 224.8036, "LD_SPAC:white"); // пусто
+TextDrawTextSize(TDEditor_TD[3], 56.5199, 89.0000);
+TextDrawAlignment(TDEditor_TD[3], 1);
+TextDrawColor(TDEditor_TD[3], 538976511);
+TextDrawBackgroundColor(TDEditor_TD[3], 255);
+TextDrawFont(TDEditor_TD[3], 4);
+TextDrawSetProportional(TDEditor_TD[3], 0);
+TextDrawSetShadow(TDEditor_TD[3], 0);
+
+TDEditor_TD[4] = TextDrawCreate(43.6665, 208.2109, "LD_SPAC:white"); // пусто
+TextDrawTextSize(TDEditor_TD[4], 58.5200, 17.0000);
+TextDrawAlignment(TDEditor_TD[4], 1);
+TextDrawColor(TDEditor_TD[4], 1077952767);
+TextDrawBackgroundColor(TDEditor_TD[4], 255);
+TextDrawFont(TDEditor_TD[4], 4);
+TextDrawSetProportional(TDEditor_TD[4], 0);
+TextDrawSetShadow(TDEditor_TD[4], 0);
+
+TDEditor_TD[5] = TextDrawCreate(44.3333, 271.9776, "LD_SPAC:white"); // пусто
+TextDrawTextSize(TDEditor_TD[5], 57.0000, 1.0000);
+TextDrawAlignment(TDEditor_TD[5], 1);
+TextDrawColor(TDEditor_TD[5], -1);
+TextDrawBackgroundColor(TDEditor_TD[5], 255);
+TextDrawFont(TDEditor_TD[5], 4);
+TextDrawSetProportional(TDEditor_TD[5], 0);
+TextDrawSetShadow(TDEditor_TD[5], 0);
+
+TDEditor_TD[6] = TextDrawCreate(43.9998, 280.2739, "LD_SPAC:white"); // пусто
+TextDrawTextSize(TDEditor_TD[6], 57.1697, 1.0000);
+TextDrawAlignment(TDEditor_TD[6], 1);
+TextDrawColor(TDEditor_TD[6], -1);
+TextDrawBackgroundColor(TDEditor_TD[6], 255);
+TextDrawFont(TDEditor_TD[6], 4);
+TextDrawSetProportional(TDEditor_TD[6], 0);
+TextDrawSetShadow(TDEditor_TD[6], 0);
+
+TDEditor_TD[7] = TextDrawCreate(44.2999, 273.2221, "LD_SPAC:white"); // полоска времени
+TextDrawTextSize(TDEditor_TD[7], 56.8899, 6.9699);
+TextDrawAlignment(TDEditor_TD[7], 1);
+TextDrawColor(TDEditor_TD[7], -2139062017);
+TextDrawBackgroundColor(TDEditor_TD[7], 255);
+TextDrawFont(TDEditor_TD[7], 4);
+TextDrawSetProportional(TDEditor_TD[7], 0);
+TextDrawSetShadow(TDEditor_TD[7], 0);
+
+TDEditor_TD[8] = TextDrawCreate(47.4998, 287.7406, "LD_BEAT:chit"); // пусто
+TextDrawTextSize(TDEditor_TD[8], 8.0000, 9.0000);
+TextDrawAlignment(TDEditor_TD[8], 1);
+TextDrawColor(TDEditor_TD[8], -1);
+TextDrawBackgroundColor(TDEditor_TD[8], 255);
+TextDrawFont(TDEditor_TD[8], 4);
+TextDrawSetProportional(TDEditor_TD[8], 0);
+TextDrawSetShadow(TDEditor_TD[8], 0);
+
+TDEditor_TD[9] = TextDrawCreate(48.9331, 288.7406, "LD_BEAT:chit"); // пусто
+TextDrawTextSize(TDEditor_TD[9], 5.0000, 7.0000);
+TextDrawAlignment(TDEditor_TD[9], 1);
+TextDrawColor(TDEditor_TD[9], 538976511);
+TextDrawBackgroundColor(TDEditor_TD[9], 255);
+TextDrawFont(TDEditor_TD[9], 4);
+TextDrawSetProportional(TDEditor_TD[9], 0);
+TextDrawSetShadow(TDEditor_TD[9], 0);
+
+TDEditor_TD[10] = TextDrawCreate(51.5999, 287.2814, "+"); // пусто
+TextDrawLetterSize(TDEditor_TD[10], 0.2293, 1.0025);
+TextDrawAlignment(TDEditor_TD[10], 2);
+TextDrawColor(TDEditor_TD[10], -1);
+TextDrawBackgroundColor(TDEditor_TD[10], 255);
+TextDrawFont(TDEditor_TD[10], 3);
+TextDrawSetProportional(TDEditor_TD[10], 1);
+TextDrawSetShadow(TDEditor_TD[10], 0);
+
+TDEditor_TD[11] = TextDrawCreate(75.7660, 288.1554, ""); // пусто
+TextDrawTextSize(TDEditor_TD[11], 10.0000, 10.0000);
+TextDrawAlignment(TDEditor_TD[11], 1);
+TextDrawColor(TDEditor_TD[11], -1);
+TextDrawFont(TDEditor_TD[11], 5);
+TextDrawSetProportional(TDEditor_TD[11], 0);
+TextDrawSetShadow(TDEditor_TD[11], 0);
+TextDrawSetPreviewModel(TDEditor_TD[11], 1254);
+TextDrawSetPreviewRot(TDEditor_TD[11], 0.0000, 0.0000, 0.0000, 1.0000);
+
+TDEditor_TD[12] = TextDrawCreate(72.8665, 299.5046, ""); // пусто
+TextDrawTextSize(TDEditor_TD[12], 14.0000, 22.0000);
+TextDrawAlignment(TDEditor_TD[12], 1);
+TextDrawColor(TDEditor_TD[12], -1);
+TextDrawFont(TDEditor_TD[12], 5);
+TextDrawSetProportional(TDEditor_TD[12], 0);
+TextDrawSetShadow(TDEditor_TD[12], 0);
+TextDrawSetPreviewModel(TDEditor_TD[12], 2061);
+TextDrawSetPreviewRot(TDEditor_TD[12], 0.0000, 270.0000, 0.0000, 1.0000);
+
+TDEditor_TD[13] = TextDrawCreate(47.4998, 305.2416, "LD_BEAT:chit"); // пусто
+TextDrawTextSize(TDEditor_TD[13], 8.0000, 9.0000);
+TextDrawAlignment(TDEditor_TD[13], 1);
+TextDrawColor(TDEditor_TD[13], -1);
+TextDrawBackgroundColor(TDEditor_TD[13], 255);
+TextDrawFont(TDEditor_TD[13], 4);
+TextDrawSetProportional(TDEditor_TD[13], 0);
+TextDrawSetShadow(TDEditor_TD[13], 0);
+
+TDEditor_TD[14] = TextDrawCreate(48.9331, 306.2419, "LD_BEAT:chit"); // пусто
+TextDrawTextSize(TDEditor_TD[14], 5.0000, 7.0000);
+TextDrawAlignment(TDEditor_TD[14], 1);
+TextDrawColor(TDEditor_TD[14], 538976511);
+TextDrawBackgroundColor(TDEditor_TD[14], 255);
+TextDrawFont(TDEditor_TD[14], 4);
+TextDrawSetProportional(TDEditor_TD[14], 0);
+TextDrawSetShadow(TDEditor_TD[14], 0);
+
+TDEditor_TD[15] = TextDrawCreate(50.3664, 299.7962, "."); // пусто
+TextDrawLetterSize(TDEditor_TD[15], 0.2915, 1.4174);
+TextDrawAlignment(TDEditor_TD[15], 1);
+TextDrawColor(TDEditor_TD[15], -1);
+TextDrawBackgroundColor(TDEditor_TD[15], 255);
+TextDrawFont(TDEditor_TD[15], 1);
+TextDrawSetProportional(TDEditor_TD[15], 1);
+TextDrawSetShadow(TDEditor_TD[15], 0);
+
+TDEditor_TD[16] = TextDrawCreate(49.3331, 190.6739, "LD_SPAC:white"); // пусто
+TextDrawTextSize(TDEditor_TD[16], 48.0000, 14.0000);
+TextDrawAlignment(TDEditor_TD[16], 1);
+TextDrawColor(TDEditor_TD[16], 808464639);
+TextDrawBackgroundColor(TDEditor_TD[16], 255);
+TextDrawFont(TDEditor_TD[16], 4);
+TextDrawSetProportional(TDEditor_TD[16], 0);
+TextDrawSetShadow(TDEditor_TD[16], 0);
+
+
+
+// Текстдравы для игроков
+new PlayerText:TDEditor_PTD[MAX_PLAYERS][11];
+
+TDEditor_PTD[playerid][0] = CreatePlayerTextDraw(playerid, 44.6665, 233.8146, "LD_SPAC:white"); // Квадрат нападающих
+PlayerTextDrawTextSize(playerid, TDEditor_PTD[playerid][0], 28.0000, 29.0000);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][0], 1);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][0], 11854233);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][0], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][0], 4);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][0], 0);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][0], 0);
+
+TDEditor_PTD[playerid][1] = CreatePlayerTextDraw(playerid, 73.0327, 233.8146, "LD_SPAC:white"); // Квадрат защищающих
+PlayerTextDrawTextSize(playerid, TDEditor_PTD[playerid][1], 28.2500, 29.0000);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][1], 1);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][1], 1718026137);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][1], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][1], 4);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][1], 0);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][1], 0);
+
+TDEditor_PTD[playerid][2] = CreatePlayerTextDraw(playerid, 73.3332, 209.0814, "type_of_attack_~n~_one"); // пусто
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][2], 0.1342, 0.8159);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][2], 2);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][2], -1);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][2], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][2], 2);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][2], 1);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][2], 0);
+
+TDEditor_PTD[playerid][3] = CreatePlayerTextDraw(playerid, 58.3332, 243.5110, "100"); // Очки нападающих
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][3], 0.2795, 1.1976);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][3], 2);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][3], -1);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][3], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][3], 3);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][3], 1);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][3], 0);
+
+TDEditor_PTD[playerid][4] = CreatePlayerTextDraw(playerid, 87.0994, 243.5110, "100"); // Очки защищающих
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][4], 0.2795, 1.1976);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][4], 2);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][4], -1);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][4], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][4], 3);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][4], 1);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][4], 0);
+
+TDEditor_PTD[playerid][5] = CreatePlayerTextDraw(playerid, 100.5328, 272.5480, "10:00"); // пусто
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][5], 0.1254, 0.7868);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][5], 3);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][5], -1);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][5], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][5], 2);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][5], 1);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][5], 0);
+
+TDEditor_PTD[playerid][6] = CreatePlayerTextDraw(playerid, 56.2999, 288.3110, "100"); // Убийств
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][6], 0.1254, 0.7868);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][6], 1);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][6], -1);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][6], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][6], 2);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][6], 1);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][6], 0);
+
+TDEditor_PTD[playerid][7] = CreatePlayerTextDraw(playerid, 86.4995, 288.3110, "100"); // Смертей
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][7], 0.1254, 0.7868);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][7], 1);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][7], -1);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][7], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][7], 2);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][7], 1);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][7], 0);
+
+TDEditor_PTD[playerid][8] = CreatePlayerTextDraw(playerid, 61.8664, 306.1119, "0.0%"); // КД
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][8], 0.1254, 0.7868);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][8], 2);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][8], -1);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][8], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][8], 2);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][8], 1);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][8], 0);
+
+TDEditor_PTD[playerid][9] = CreatePlayerTextDraw(playerid, 87.1661, 306.1119, "100"); // Дамаг
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][9], 0.1254, 0.7868);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][9], 1);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][9], -1);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][9], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][9], 2);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][9], 1);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][9], 0);
+
+TDEditor_PTD[playerid][10] = CreatePlayerTextDraw(playerid, 73.9999, 192.4888, "100_VS_100"); // Кол-во людей
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][10], 0.2070, 0.9983);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][10], 2);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][10], -1);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][10], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][10], 3);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][10], 1);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][10], 0);
+
+
+
+// Экспортировано 28 текстдравов.

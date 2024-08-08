@@ -1,0 +1,26 @@
+// Текстдравы для игроков
+new PlayerText:TDEditor_PTD[MAX_PLAYERS][2];
+
+TDEditor_PTD[playerid][0] = CreatePlayerTextDraw(playerid, 528.0000, 50.0000, ""); // пусто
+PlayerTextDrawTextSize(playerid, TDEditor_PTD[playerid][0], 45.0000, 31.0000);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][0], 1);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][0], -103);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][0], 5);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][0], 0);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][0], 0);
+PlayerTextDrawSetPreviewModel(playerid, TDEditor_PTD[playerid][0], 373);
+PlayerTextDrawSetPreviewRot(playerid, TDEditor_PTD[playerid][0], 60.0000, -20.0000, 110.0000, 3.0000);
+
+TDEditor_PTD[playerid][1] = CreatePlayerTextDraw(playerid, 532.0000, 54.0000, ""); // пусто
+PlayerTextDrawTextSize(playerid, TDEditor_PTD[playerid][1], 37.0000, 30.0000);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][1], 1);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][1], -1);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][1], 5);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][1], 0);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][1], 0);
+PlayerTextDrawSetPreviewModel(playerid, TDEditor_PTD[playerid][1], 1240);
+PlayerTextDrawSetPreviewRot(playerid, TDEditor_PTD[playerid][1], 0.0000, 0.0000, 0.0000, 3.0000);
+
+
+
+// Экспортировано 2 текстдравов.

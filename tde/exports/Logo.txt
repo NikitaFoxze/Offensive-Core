@@ -1,0 +1,37 @@
+// √лобальные текстдравы
+new Text:TDEditor_TD[3];
+
+TDEditor_TD[0] = TextDrawCreate(585.0000, 5.0000, "OFFENSIVE"); // пусто
+TextDrawLetterSize(TDEditor_TD[0], 0.4329, 1.7201);
+TextDrawAlignment(TDEditor_TD[0], 2);
+TextDrawColor(TDEditor_TD[0], 606548991);
+TextDrawSetOutline(TDEditor_TD[0], 1);
+TextDrawBackgroundColor(TDEditor_TD[0], -253);
+TextDrawFont(TDEditor_TD[0], 1);
+TextDrawSetProportional(TDEditor_TD[0], 1);
+TextDrawSetShadow(TDEditor_TD[0], 0);
+
+TDEditor_TD[1] = TextDrawCreate(551.0000, 22.0000, "Box"); // пусто
+TextDrawLetterSize(TDEditor_TD[1], 0.0000, 0.8999);
+TextDrawTextSize(TDEditor_TD[1], 620.0000, 0.0000);
+TextDrawAlignment(TDEditor_TD[1], 1);
+TextDrawColor(TDEditor_TD[1], 1130251775);
+TextDrawUseBox(TDEditor_TD[1], 1);
+TextDrawBoxColor(TDEditor_TD[1], 589703321);
+TextDrawBackgroundColor(TDEditor_TD[1], 255);
+TextDrawFont(TDEditor_TD[1], 1);
+TextDrawSetProportional(TDEditor_TD[1], 1);
+TextDrawSetShadow(TDEditor_TD[1], 0);
+
+TDEditor_TD[2] = TextDrawCreate(586.0000, 19.0000, "PROJECT"); // пусто
+TextDrawLetterSize(TDEditor_TD[2], 0.2533, 1.3841);
+TextDrawAlignment(TDEditor_TD[2], 2);
+TextDrawColor(TDEditor_TD[2], -707406849);
+TextDrawBackgroundColor(TDEditor_TD[2], 255);
+TextDrawFont(TDEditor_TD[2], 2);
+TextDrawSetProportional(TDEditor_TD[2], 1);
+TextDrawSetShadow(TDEditor_TD[2], 0);
+
+
+
+// Ёкспортировано 3 текстдравов.

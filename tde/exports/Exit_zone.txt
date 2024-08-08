@@ -1,0 +1,58 @@
+// Текстдравы для игроков
+new PlayerText:TDEditor_PTD[MAX_PLAYERS][5];
+
+TDEditor_PTD[playerid][0] = CreatePlayerTextDraw(playerid, 0.0000, 0.0000, "Box"); // пусто
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][0], 0.0000, 50.6665);
+PlayerTextDrawTextSize(playerid, TDEditor_PTD[playerid][0], 646.0000, 0.0000);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][0], 1);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][0], -1);
+PlayerTextDrawUseBox(playerid, TDEditor_PTD[playerid][0], 1);
+PlayerTextDrawBoxColor(playerid, TDEditor_PTD[playerid][0], 80);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][0], 255);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][0], 1);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][0], 1);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][0], 0);
+
+TDEditor_PTD[playerid][1] = CreatePlayerTextDraw(playerid, 320.0000, 195.0000, "Exit_from_the_combat_zone"); // пусто
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][1], 0.2749, 1.4548);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][1], 2);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][1], -1136573953);
+PlayerTextDrawSetOutline(playerid, TDEditor_PTD[playerid][1], 1);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][1], 21);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][1], 2);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][1], 1);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][1], 0);
+
+TDEditor_PTD[playerid][2] = CreatePlayerTextDraw(playerid, 320.0000, 215.0000, "Go_back!"); // пусто
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][2], 0.2749, 1.4548);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][2], 2);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][2], -1339019009);
+PlayerTextDrawSetOutline(playerid, TDEditor_PTD[playerid][2], 1);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][2], 32);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][2], 2);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][2], 1);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][2], 0);
+
+TDEditor_PTD[playerid][3] = CreatePlayerTextDraw(playerid, 320.0000, 250.0000, "Death_will_occur_in:_2"); // пусто
+PlayerTextDrawLetterSize(playerid, TDEditor_PTD[playerid][3], 0.2749, 1.4548);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][3], 2);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][3], -1037621249);
+PlayerTextDrawSetOutline(playerid, TDEditor_PTD[playerid][3], 1);
+PlayerTextDrawBackgroundColor(playerid, TDEditor_PTD[playerid][3], 32);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][3], 2);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][3], 1);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][3], 0);
+
+TDEditor_PTD[playerid][4] = CreatePlayerTextDraw(playerid, 311.0000, 237.0000, ""); // пусто
+PlayerTextDrawTextSize(playerid, TDEditor_PTD[playerid][4], 15.0000, 13.0000);
+PlayerTextDrawAlignment(playerid, TDEditor_PTD[playerid][4], 1);
+PlayerTextDrawColor(playerid, TDEditor_PTD[playerid][4], -579241473);
+PlayerTextDrawFont(playerid, TDEditor_PTD[playerid][4], 5);
+PlayerTextDrawSetProportional(playerid, TDEditor_PTD[playerid][4], 0);
+PlayerTextDrawSetShadow(playerid, TDEditor_PTD[playerid][4], 0);
+PlayerTextDrawSetPreviewModel(playerid, TDEditor_PTD[playerid][4], 1254);
+PlayerTextDrawSetPreviewRot(playerid, TDEditor_PTD[playerid][4], 0.0000, 0.0000, 0.0000, 1.0000);
+
+
+
+// Экспортировано 5 текстдравов.
