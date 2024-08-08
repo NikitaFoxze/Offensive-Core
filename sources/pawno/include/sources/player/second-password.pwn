@@ -842,8 +842,8 @@ DialogResponse:PlayerSecondPassword(playerid, response, listitem, inputtext[])
 				if(Mode_GetPlayer(playerid) != MODE_NONE 
 				|| GetPlayerBusy(playerid) != MAIN_MENU 
 				|| Interface_IsOpen(playerid, Interface:SecondPassword)) {
-				SCM(playerid, COLOR_ERROR, "(Ошибка) {FFFFFF}Данную функцию можно изменить только в главном меню.");
-				Dialog_Show(playerid, Dialog:PlayerChangeSecurity);
+					SCM(playerid, COLOR_ERROR, "(Ошибка) {FFFFFF}Данную функцию можно изменить только в главном меню.");
+					Dialog_Show(playerid, Dialog:PlayerChangeSecurity);
 					return 1;
 				}
 
