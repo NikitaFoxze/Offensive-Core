@@ -1,10 +1,10 @@
-![](media/Github/offensive-core.png)
+![](media/Github/offensive-core-1.png)
 [![Link to Mastodon profile](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)](https://github.com/NikitaFoxze/Offensive-Core)
 [![Link to Mastodon profile](https://img.shields.io/badge/Language-Pawn-red?style=for-the-badge)](https://github.com/NikitaFoxze/Offensive-Core)
 [![Link to Mastodon profile](https://img.shields.io/badge/Saves-MySQL-purple?style=for-the-badge)](https://github.com/NikitaFoxze/Offensive-Core)
 
 Offensive-Core - это большой проект сочетающий в себе многофункциональный игровой режим и сопутствующие 
-к нему файлы написанные на языке Pawn для серверов в SA-MP. 
+к нему файлы написанные на языке Pawn для серверов в SA-MP и open.mp. 
 На основе реализованных методов можно создавать абсолютно любимые режимы и подрежимы для них. 
 Код можно с лёгкостью модернизировать и расширять для своих нужд. В проекте представлены режимы: TDM, DM и Room.
 
