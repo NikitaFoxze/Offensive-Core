@@ -1605,7 +1605,7 @@ public OnPlayerExitedMenu(playerid)
 
 public OnPlayerClickTextDraw(playerid, Text:clickedid)
 {
-	if(GetClickedID(clickedid) == INVALID_TEXT_DRAW) {
+	if(clickedid == INVALID_TEXT_DRAW) {
 		if(Adm_GetPlayerSpectating(playerid)) {
 			if(GetPlayerClickTD(playerid)) {
 				SetPlayerClickTD(playerid, false);
