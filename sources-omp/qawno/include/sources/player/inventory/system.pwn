@@ -3919,7 +3919,7 @@ InterfacePlayerClick:Inventory(playerid, PlayerText:playertextid)
 
 InterfaceClick:Inventory(playerid, Text:clickedid)
 {
-	if(GetClickedID(clickedid) == INVALID_TEXT_DRAW) {
+	if(clickedid == INVALID_TEXT_DRAW) {
 		Interface_Close(playerid, Interface:Inventory);
 		Interface_Show(playerid, Interface:MainMenu);
 		SelectTextDraw(playerid, TD_CLICK_COLOR_GREY);
@@ -3980,7 +3980,7 @@ InterfacePlayerClick:Cases(playerid, PlayerText:playertextid)
 
 InterfaceClick:Cases(playerid, Text:clickedid)
 {
-	if(GetClickedID(clickedid) == INVALID_TEXT_DRAW) {
+	if(clickedid == INVALID_TEXT_DRAW) {
 		n_for(i, sizeof(TD_OpenCase[]))
 			PlayerTextDrawShow(playerid, TD_OpenCase[playerid][i]);
 
