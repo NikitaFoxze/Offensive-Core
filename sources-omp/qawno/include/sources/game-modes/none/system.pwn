@@ -887,7 +887,7 @@ InterfacePlayerClick:MainMenu(playerid, PlayerText:playertextid)
 
 InterfaceClick:MainMenu(playerid, Text:clickedid)
 {
-	if(GetClickedID(clickedid) == INVALID_TEXT_DRAW)
+	if(clickedid == INVALID_TEXT_DRAW)
 		SelectTextDraw(playerid, 0xAFAFAFAA);
 
 	return 1;
@@ -934,7 +934,7 @@ InterfacePlayerClick:MM_SelectModes(playerid, PlayerText:playertextid)
 
 InterfaceClick:MM_SelectModes(playerid, Text:clickedid)
 {
-	if(GetClickedID(clickedid) == INVALID_TEXT_DRAW)
+	if(clickedid == INVALID_TEXT_DRAW)
 		SelectTextDraw(playerid, 0xAFAFAFAA);
 
 	return 1;
