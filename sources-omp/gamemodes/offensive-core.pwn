@@ -7493,7 +7493,7 @@ DialogResponse:PlayerChangePassword(playerid, response, listitem, inputtext[])
 			salt[i] = random(79) + 47;
 		
 		salt[10] = 0;
-		SHA256_PassHash(pInfo[playerid][pPassword], salt, pInfo[playerid][pPassword], 65);
+		SHA256_Hash(pInfo[playerid][pPassword], salt, pInfo[playerid][pPassword], 65);
 		pInfo[playerid][pSalt] = salt;
 
 		new
@@ -8142,7 +8142,7 @@ DialogResponse:PlayerLogin(playerid, response, listitem, inputtext[])
 	new
 		hash[64 + 1];
 
-	SHA256_PassHash(inputtext, pInfo[playerid][pSalt], hash, sizeof(hash));
+	SHA256_Hash(inputtext, pInfo[playerid][pSalt], hash, sizeof(hash));
 	
 	if(strcmp(hash, pInfo[playerid][pPassword], true)) {
 		switch(GetPVarInt(playerid, "WrongPassword")) {
@@ -8212,7 +8212,7 @@ stock CreateNewAccount(playerid)
 
 	salt[10] = 0;
 
-	SHA256_PassHash(pInfo[playerid][pPassword], salt, pInfo[playerid][pPassword], 65);
+	SHA256_Hash(pInfo[playerid][pPassword], salt, pInfo[playerid][pPassword], 65);
 	pInfo[playerid][pSalt] = salt;
 
 	CreateNewUser(playerid, pInfo[playerid][pPassword]);
