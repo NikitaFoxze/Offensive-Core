@@ -5026,7 +5026,7 @@ InterfacePlayerClick:TDM_SelectedClass(playerid, PlayerText:playertextid)
 InterfaceClick:TDM_SelectedClass(playerid, Text:clickedid)
 {
 	// Click escape
-	if(GetClickedID(clickedid) == INVALID_TEXT_DRAW) {
+	if(clickedid == INVALID_TEXT_DRAW) {
 		if(GetPVarInt(playerid, "SelectWeapon_PVar")) {
 			DeletePVar(playerid, "SelectWeapon_PVar");
 
@@ -5111,7 +5111,7 @@ InterfacePlayerClick:TDM_SelectClass(playerid, PlayerText:playertextid)
 InterfaceClick:TDM_SelectClass(playerid, Text:clickedid)
 {
 	// Click escape
-	if(GetClickedID(clickedid) == INVALID_TEXT_DRAW) {
+	if(clickedid == INVALID_TEXT_DRAW) {
 		Interface_Close(playerid, Interface:TDM_SelectClass);
 
 		Interface_Show(playerid, Interface:TDM_SelectTP);
