@@ -1924,7 +1924,7 @@ InterfacePlayerClick:TradingPlatform(playerid, PlayerText:playertextid)
 
 InterfaceClick:TradingPlatform(playerid, Text:clickedid)
 {
-	if(GetClickedID(clickedid) == INVALID_TEXT_DRAW) {
+	if(clickedid == INVALID_TEXT_DRAW) {
 		switch(StatusTradingPlatform[playerid]) {
 			// Выбор раздела
 			case 1: {
