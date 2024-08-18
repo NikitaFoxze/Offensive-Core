@@ -3567,7 +3567,7 @@ InterfacePlayerClick:TDM_SelectTeam(playerid, PlayerText:playertextid)
 InterfaceClick:TDM_SelectTeam(playerid, Text:clickedid)
 {
 	// Click escape
-	if(GetClickedID(clickedid) == INVALID_TEXT_DRAW) {
+	if(clickedid == INVALID_TEXT_DRAW) {
 		Interface_Close(playerid, Interface:TDM_SelectTeam);
 
 		Interface_Show(playerid, Interface:TDM_SelectTP);
