@@ -378,7 +378,10 @@ AntiDeAMX()
 
 */
 
-#include <a_samp>
+#define NO_TAGS
+#define MIXED_SPELLINGS
+
+#include <open.mp>
 #include <a_http>
 #include <a_mysql>
 
