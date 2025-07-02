@@ -86,22 +86,24 @@ Offensive-Core - это большой проект сочетающий в се
 # Wiki
 Больше информации можно узнать в разделе [Wiki](https://github.com/NikitaFoxze/Offensive-Core/wiki)
 
-# Зависимости
+# 🔧 Зависимости
+Проект использует несколько популярных плагинов и файлов последних версий для улучшенной работы с кодом и их возможностями.
+
 Плагины:
 - [sscanf v2.13.8](https://github.com/Y-Less/sscanf)
 - [streamer v2.9.6](https://github.com/samp-incognito/samp-streamer-plugin)
-- [mysql vR1-4](https://github.com/pBlueG/SA-MP-MySQL)
-- [Pawn.CMD v3.4.0](https://github.com/katursis/Pawn.CMD)
-- [Pawn.RakNet v1.6.0](https://github.com/katursis/Pawn.RakNet)
-- [Pawn.Regex v1.2.3](https://github.com/katursis/Pawn.Regex)
-- [rustext v2.0.8](https://github.com/ziggi/rustext)
-- [FCNPC v2.0.10](https://github.com/ziggi/FCNPC) (для open.mp не нужен)
-- [CrashDetect v4.22](https://github.com/Zeex/samp-plugin-crashdetect)
+- [MySQL vR41-4](https://github.com/pBlueG/SA-MP-MySQL)
+- [Pawn.CMD v3.4.0-omp](https://github.com/katursis/Pawn.CMD)
+- [Pawn.RakNet v1.6.0-omp](https://github.com/katursis/Pawn.RakNet)
+- [Pawn.Regex v1.2.3-omp](https://github.com/katursis/Pawn.Regex)
+- [rustext v2.0.10](https://github.com/ziggi/rustext)
+- [CrashDetect v4.22](https://github.com/Y-Less/samp-plugin-crashdetect)
+- [Bcrypt v2.2.3](https://github.com/lassir/bcrypt-samp)
 
 Файлы:
 - [weapon-config](https://github.com/oscar-broman/samp-weapon-config)
-- [nex-ac v1.9.64](https://github.com/NexiusTailer/Nex-AC)
-- [foreach v2.2.6](https://github.com/Open-GTO/foreach)
+- [nex-ac v1.9.66](https://github.com/NexiusTailer/Nex-AC)
+- [foreach v2.2.7](https://github.com/Open-GTO/foreach)
 - [mdialog v1.4.3](https://github.com/Open-GTO/mdialog)
 - [cinterface v1.0.0](https://github.com/NikitaFoxze/cinterface)
 - [StreamerFunctions](https://github.com/AbyssMorgan/SAMP/blob/main/Libs/StreamerFunction/StreamerFunction.inc)
