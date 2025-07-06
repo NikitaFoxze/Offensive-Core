@@ -572,7 +572,7 @@ static DestroySingleSession(modeid, sessionid, bool:removeIterator)
 	// Players
 	m_safe_for(modeid, sessionid, p) {
 		Mode_LeavePlayer(p);
-		Mode_EnterPlayer(p, MODE_NONE, 0);
+		Mode_EnterPlayer(p, MODE_NONE, p);
 	}
 
 	// Session

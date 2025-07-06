@@ -3768,7 +3768,7 @@ CMD:none_mode(playerid)
 		DeletePVar(playerid, "NONE_MODE_CMD");
 
 		SCM(playerid, C_WHITE, "Заход в режимы прошёл успешно.");
-		Mode_EnterPlayer(playerid, MODE_NONE, 0);
+		Mode_EnterPlayer(playerid, MODE_NONE, playerid);
 	}
 	return 1;
 }
@@ -3806,7 +3806,7 @@ CMD:leave(playerid)
 	}
 
 	Mode_LeavePlayer(playerid);
-	Mode_EnterPlayer(playerid, MODE_NONE, 0);
+	Mode_EnterPlayer(playerid, MODE_NONE, playerid);
 	return 1;
 }
 

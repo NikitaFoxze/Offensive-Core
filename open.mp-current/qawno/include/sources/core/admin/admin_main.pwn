@@ -636,7 +636,7 @@ stock StopAdminSpectating(playerid, bool:remove = true)
 	Interface_Close(playerid, Interface:AdminSpectate);
 
 	SpecPl(playerid, false);
-	Mode_EnterPlayer(playerid, MODE_NONE, 0);
+	Mode_EnterPlayer(playerid, MODE_NONE, playerid);
 	return 1;
 }
 
