@@ -1,2 +1,4 @@
 *.pwn linguist-language=Pawn
 *.inc linguist-language=Pawn
+*.pwn text working-tree-encoding=windows-1251
+*.inc text working-tree-encoding=windows-1251
