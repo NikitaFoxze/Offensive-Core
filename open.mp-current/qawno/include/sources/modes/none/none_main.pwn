@@ -387,8 +387,8 @@ static SettingsPlayerSpawn(playerid)
 	new
 		skinid = Mode_GetPlayerSkin(playerid, MODE_NONE);
 
-	Mode_SetPlayerVirtualWorld(playerid, MODE_NONE, 0);
-	Mode_SetPlayerInterior(playerid, MODE_NONE, 0);
+	Mode_SetPlayerVirtualWorld(playerid, MODE_NONE, playerid);
+	Mode_SetPlayerInterior(playerid, MODE_NONE, playerid);
 
 	if (GetPlayerLogged(playerid)) {		
 		SetSpawnInfoEx(playerid, skinid, 3474.8198, 2295.6914 - 10.0, 18.3677 + 0.3, 90.0957);
